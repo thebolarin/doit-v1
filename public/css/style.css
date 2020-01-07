@@ -1,0 +1,781 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+  font-family: "Muli", sans-serif;
+  font-weight: 500;
+  position: relative;
+  color: #241c15;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  line-height: 20px;
+  font-size: 17px;
+}
+table th,
+td {
+  font-weight: 400 !important;
+  font-size: 13px;
+}
+
+i {
+  color: black;
+}
+
+a {
+  outline: none !important;
+}
+
+hr {
+  width: 100%;
+  border: 0.5px solid rgb(226, 224, 224);
+}
+
+.sideBar {
+  background: #e9d8fd;
+  border-right: 1px solid #f7fafc;
+}
+.brand-logo {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #553c9a;
+  font-family: "Kaushan Script", cursive;
+}
+.sideBar ul li {
+  color: black;
+  font-size: 13px;
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+.sideBar ul li:hover {
+  background: white;
+  color: #805ad5;
+}
+.sideBar ul .active {
+  background: white;
+  color: #805ad5;
+}
+.sideBar ul li i {
+  color: #a0aec0;
+
+  font-weight: 0;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+.sideBar p {
+  font-size: 10px;
+  padding-left: 50px;
+  padding-top: 0px;
+  color: #718096;
+}
+
+.sideBar .signOut {
+  padding-left: 46px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.sideBar .signOut:hover {
+ color:red;
+}
+.flaticon-sign-out-option:before {
+  content: "\f11c";
+  font-size: 27px !important;
+  color: #718096;
+}
+
+
+.flaticon-menu:before {
+  content: "\f121";
+  font-size: 10px !important;
+}
+.flaticon-check-box-empty:before {
+  content: "\f12f";
+  font-weight: bold;
+}
+
+.flaticon-plus:before {
+  content: "\f119";
+  font-size: 30px !important;
+  color: #cbd5e0;
+  text-align: center;
+}
+.leftBar {
+  background: white;
+  height: 655px;
+  border-left: 1px solid #e2e8f0;
+}
+
+.leftBar ul li {
+  color: black;
+  font-size: 12px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+.leftBar ul li:hover {
+  color: #805ad5;
+}
+.leftBar ul li i {
+  color: #a0aec0;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+.leftBar ul li .imp {
+  color: #2b6cb0;
+}
+.leftBar ul li .irr {
+  color: #e53e3e;
+}
+.leftBar ul li .def {
+  color: #2f855a;
+}
+.leftBar p {
+  font-size: 10px;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: #718096;
+  font-weight: bold;
+}
+
+.nav {
+  height: 80px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.nav h4 {
+  padding: 20px;
+}
+
+.nav span {
+  position: relative;
+  float: right;
+  font-size: 12px;
+  font-weight: 400;
+}
+nav .username {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 20px;
+}
+.flaticon-man-user:before {
+  content: "\f138";
+  margin-left: 0;
+  margin-right: 0;
+}
+nav {
+  box-shadow: none;
+}
+nav img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  margin-top: 14px;
+  margin-left: 30px;
+}
+nav .sidenav .brand-logo {
+  color: #553c9a;
+}
+nav .sidenav .signOut {
+  padding-left: 49px;
+
+  margin-top: 50px;
+}
+.activity p {
+  font-weight: bold;
+}
+.sidenav span img {
+  width: 80%;
+  height: 60px;
+}
+.sideBar span img {
+  width: 80%;
+  height: 60px;
+}
+.activity .col {
+  text-align: center;
+  margin-left: 10px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+}
+
+.activity .one .icon {
+  background: #ebf8ff;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.activity .one .icon img {
+  display: block;
+  margin-left: 14px;
+  margin-right: auto;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 12px;
+}
+.activity .one .box {
+  margin-top: 50px;
+}
+.activity .one .box p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a5568;
+}
+.activity .one .box span {
+  font-size: 12px;
+  color: #a0aec0;
+}
+.activity .one {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+  height: 200px;
+  border-radius: 20px;
+}
+
+.activity .add .one .icon {
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background: white;
+}
+.flaticon-plus:before {
+  content: "\f119";
+  margin-left: 0;
+}
+.activity .add .one:hover {
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0px 2px 8px 0px #805ad5;
+}
+
+.activity .addNew i {
+  text-align: center;
+
+  margin-right: auto;
+  margin-left: auto !important;
+}
+
+.activity .default .taskdetails {
+  border-left: 6px solid #48bb78;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+  padding-left: 30px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.activity .default .taskdetails h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2d3748;
+}
+.activity .default .taskdetails h2 .cat {
+  float: right;
+  color: #e53e3e;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.activity .default .taskdetails h2 .cat:hover {
+  color: #fc8181;
+}
+.activity .default .taskdetails span {
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+.activity .default .taskdetails h5 {
+  font-size: 17px;
+  color: #2d3748;
+  font-weight: bold;
+}
+
+.activity .default .taskdetails p {
+  font-size: 13px;
+  color: #718096;
+  font-weight: 400;
+  padding-right: 10px;
+}
+.flaticon-timetable:before {
+  content: "\f12a";
+  margin-left: 0;
+  color: #a0aec0;
+  font-size: 12px;
+}
+
+.flaticon-add:before {
+  content: "\f117";
+  color: white;
+  margin-left: 0;
+  font-size: 11px;
+}
+.flaticon-settings-1:before {
+  content: "\f12c";
+  color: white;
+  margin-left: 0;
+  font-size: 11px;
+}
+.activity .btn {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.btn {
+  font-size: 11px;
+  text-transform: none;
+  background: #6b46c1;
+  text-align: center;
+  border-radius: 4px;
+}
+.btn:hover {
+  font-size: 11px;
+  text-transform: none;
+  background: #805ad5 !important;
+  text-align: center;
+  border-radius: 4px;
+}
+.flaticon-trash:before {
+  content: "\f10c";
+  margin-left: 0;
+  font-size: 18px;
+}
+
+.activity .default .task {
+  background: #c6f6d5;
+  border-radius: 10px;
+  border-left: 6px solid #48bb78;
+}
+
+.activity .default .task p .category {
+  float: right;
+  padding-right: 30px;
+  font-weight: bold;
+  color: #2d3748;
+}
+.activity .default .task .cat {
+  float: right;
+  color: #e53e3e;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.activity .default .task .cat:hover {
+  color: #fc8181;
+}
+.activity .default .task:hover {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+.activity .default .task h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+  color: #4a5568;
+  padding-top: 11px;
+}
+.activity .default .task span {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+
+  color: #718096;
+}
+.activity .default .task p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 20px;
+  color: #48bb78;
+  padding-bottom: 10px;
+}
+.activity .default .task .view {
+  color: #44337a;
+}
+.activity .default .task .view:hover {
+  color: #805ad5;
+}
+.activity .irrelevant .task {
+  background: #fed7d7;
+  border-radius: 10px;
+  border-left: 6px solid #fc8181;
+}
+.activity .irrelevant .task p .category {
+  float: right;
+  padding-right: 30px;
+  font-weight: bold;
+  color: #2d3748;
+}
+.activity .irrelevant .task .cat {
+  float: right;
+  color: #e53e3e;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.activity .irrelevant .task .cat:hover {
+  color: #fc8181;
+}
+.activity .irrelevant .task:hover {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+.activity .irrelevant .task h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+  color: #4a5568;
+  padding-top: 11px;
+}
+.activity .irrelevant .task span {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #718096;
+}
+.activity .irrelevant .task p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 20px;
+  color: #fc8181;
+  padding-bottom: 13px;
+}
+.activity .irrelevant .task .view {
+  color: #44337a;
+}
+.activity .irrelevant .task .view:hover {
+  color: #805ad5;
+}
+.activity .important .task {
+  background: #bee3f8;
+  border-radius: 10px;
+  border-left: 6px solid #63b3ed;
+}
+
+.activity .important .task p .category {
+  float: right;
+  padding-right: 30px;
+  font-weight: bold;
+  color: #2d3748;
+}
+.activity .important .task .cat {
+  float: right;
+  color: #e53e3e;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.activity .important .task .cat:hover {
+  color: #fc8181;
+}
+.activity .important .task:hover {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+.activity .important .task h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+  color: #4a5568;
+  padding-top: 11px;
+}
+.activity .important .task span {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+
+  color: #718096;
+}
+.activity .important .task p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 20px;
+  color: #63b3ed;
+  padding-bottom: 13px;
+}
+
+.activity .important .task .view {
+  color: #44337a;
+}
+.activity .important .task .view:hover {
+  color: #805ad5;
+}
+.login {
+  background: white;
+}
+.login .signup-a .container {
+  width: 70%;
+}
+.login .signup-a .container h4 {
+  text-align: center;
+  font-size: 17px;
+}
+
+.login .signup-a .container form {
+  margin-top: 20px;
+}
+.login .signup-a .container form .input-field {
+  margin-top: 20px;
+}
+.login .signup-a .container form .input-field input[type] {
+  display: block;
+  font-size: 13px;
+  padding-left: 5px;
+  border: 1px solid rgb(179, 179, 179);
+  transition: all 1s;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #606d81;
+}
+.login .signup-a .container form .input-field input[type]:focus {
+  border: 1px solid #44337a;
+}
+.login .signup-a .container form .input-field input[type] .invalid {
+  border-color: #44337a;
+}
+.login .signup-a .container form label {
+  padding-left: 20px;
+  font-size: 13px;
+}
+.login .signup-a .container form label:focus {
+  padding-left: 40px;
+}
+.login .signup-a .container form .btn {
+  border-radius: 4px;
+}
+
+.select-wrapper .select-dropdown .dropdown-trigger {
+  border: none !important;
+}
+.datepicker-date-display {
+  background-color: #6d4e7a;
+}
+.datepicker-row .is-today {
+  color: #6d4e7a !important;
+}
+.datepicker-row .is-selected {
+  background-color: #6d4e7a !important;
+}
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+  color: #6d4e7a !important;
+}
+.datpicker-done {
+  color: #6d4e7a !important;
+}
+.timepicker-digital-display {
+  background: #6d4e7a !important;
+}
+.timepicker-tick:hover {
+  background: #6d4e7a !important;
+  color: white !important;
+}
+.timepicker-canvas line {
+  stroke: #6d4e7a !important;
+  color: white;
+}
+.timepicker-canvas-bearing {
+  fill: #fbfbfb !important;
+}
+.timepicker-canvas-bg {
+  fill: #6d4e7a !important;
+}
+.timepicker-close {
+  color: #6d4e7a !important;
+}
+
+.input-field select option {
+  font-size: 10px;
+  color: #718096;
+}
+
+.select-dropdown {
+  font-size: 15px;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: #6d4e7a !important;
+  font-size: 13px;
+}
+
+.login {
+  background: white;
+}
+.login .notes .container {
+  width: 100%;
+}
+.login .notes .container h4 {
+  text-align: center;
+  font-size: 17px;
+}
+
+.login .notes .container form {
+  margin-top: 20px;
+}
+.login .notes .container form .input-field {
+  margin-top: 10px;
+}
+.login .notes .container form .input-field input[type] {
+  display: block;
+  font-size: 13px;
+  padding-left: 5px;
+  border: 1px solid rgb(179, 179, 179);
+  transition: all 1s;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #606d81;
+}
+.login .notes .container form .input-field textarea {
+  color: #606d81 !important;
+}
+
+.login .notes .container form .input-field input[type]:focus {
+  border-color: #44337a;
+}
+
+.login .notes .container form .input-field input[type] .invalid {
+  border-color: #44337a;
+}
+.login .notes .container form label {
+  color: black;
+  padding-left: 20px;
+  font-size: 13px;
+}
+.login .notes .container form label:focus {
+  color: black;
+  padding-left: 40px;
+}
+.login .notes .container form .btn {
+  border-radius: 4px;
+}
+
+.activity .noteslist {
+  background: #f7fafc;
+  border-radius: 10px;
+}
+
+.activity .noteslist:hover {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.activity .noteslist h5 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #4a5568;
+}
+.activity .noteslist h5 span {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 10px;
+  float: right;
+  color: #51627c;
+}
+.activity .noteslist p {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 11px;
+  color: #718096;
+}
+
+.activity .notedetails h4 {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #4a5568;
+  text-align: left;
+}
+.activity .notedetails h4 .cat {
+  float: right;
+  color: #718096;
+  padding-right: 20px;
+  font-weight: 400;
+}
+.activity .notedetails h4 .edit {
+  float: right;
+  color: #718096;
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.activity .notedetails h4 .cat:hover {
+  color: #fc8181;
+}
+.activity .notedetails h4 .edit:hover {
+  color: #48bb78;
+}
+
+.activity .notedetails p {
+  font-size: 13px;
+  line-height: 30px;
+  color: #5d6b81;
+  text-align: left;
+  font-weight: normal;
+}
+.activity .notedetails a {
+  margin-left: 50px;
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+
+.input-field input[type]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+  color: #44337a !important;
+}
+
+.input-field input[type]:focus,
+.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #44337a !important;
+  box-shadow: 0 1px 0 0 #44337a !important;
+}
+.dropdown-content li {
+  height: 20px !important;
+  line-height: 0px;
+}
+
+.dropdown-content ul {
+  height: 20px !important;
+}
+.dropdown-content li:hover {
+  height: 20px;
+  background: #e9d8fd;
+}
+
+.input-field input[type]:focus:not([readonly]) + label,
+.input-field textarea:focus:not([readonly]) + label {
+  color: #718096;
+}
+.input-field input[type].invalid:focus + label,
+.input-field input[type].invalid ~ .helper-text::after,
+.input-field input[type].invalid:focus ~ .helper-text::after,
+.input-field textarea.invalid:focus + label,
+.input-field textarea.invalid ~ .helper-text::after,
+.input-field textarea.invalid:focus ~ .helper-text::after {
+  color: #718096;
+}
