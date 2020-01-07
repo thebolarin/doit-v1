@@ -162,7 +162,7 @@ paginatedData(){
         .then(res => {
           // console.log(res);
           const data = res.data.tasks;
-         const today = data.filter(obj => !moment().isAfter(obj.date, 'day'));
+         const today = data.filter(obj => moment().isBefore(obj.date, 'day'));
         //  console.log(today);
           this.tasks = today;
         })
